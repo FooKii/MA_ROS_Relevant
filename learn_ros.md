@@ -12,6 +12,8 @@
             * 2. 安装后将package path添加到 ros path 中， 但每次terminal 关闭 添加就失效了。 为此要修改bashrc 最后一行添加 source ~/<es_path>/devel/setup.bash
 
 * Question: rviz 中的 fix frame, 如何现实所有的在不同frame 下的sensor画面
+    * [Answer] 用tf包工具发布global fixed frame到topic所在坐标系的tf关系, example:
+    `rosrun tf static_transform_publisher 0.0 0.0 0.0 0.0 0.0 0.0 map xxx 100` xxx 映射为map
         
 
 
