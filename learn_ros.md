@@ -15,5 +15,9 @@
     * [Answer] 用tf包工具发布global fixed frame到topic所在坐标系的tf关系, example:
     `rosrun tf static_transform_publisher 0.0 0.0 0.0 0.0 0.0 0.0 map xxx 100` xxx 映射为map
         
+ * Connect Gazebo with ROS
+   * spawn model from urdf file: 
+      1. ```rosrun gazebo_ros spawn_model -file `rospack find MYROBOT_description`/urdf/MYROBOT.urdf -urdf -x 0 -y 0 -z 1 -model MYROBOT``` spawn_model 是 gazebo_ros package 的一个小 script
+      2. http://gazebosim.org/tutorials?tut=ros_roslaunch&cat=connect_ros， 在model.config 里< sdf tag >直接使用urdf file.
 
 
