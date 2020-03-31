@@ -18,6 +18,9 @@
  * Connect Gazebo with ROS
    * spawn model from urdf file: 
       1. ```rosrun gazebo_ros spawn_model -file `rospack find MYROBOT_description`/urdf/MYROBOT.urdf -urdf -x 0 -y 0 -z 1 -model MYROBOT``` spawn_model 是 gazebo_ros package 的一个小 script
-      2. http://gazebosim.org/tutorials?tut=ros_roslaunch&cat=connect_ros， 在model.config 里< sdf tag >直接使用urdf file.
+      2. http://gazebosim.org/tutorials?tut=ros_roslaunch&cat=connect_ros， 在model.config 里< sdf tag >直接使用urdf file
+      3. Plugin: Sensor pluglin 要与link相联 《这可能是有时候gazebo内发布的影像坐标颠倒的原因》，link不是joint， joint 才会规定坐标系
+      4. 直接include plugin 
+      
 
 
