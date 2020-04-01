@@ -22,5 +22,8 @@
       3. Plugin: Sensor pluglin 要与link相联 《这可能是有时候gazebo内发布的影像坐标颠倒的原因》，link不是joint， joint 才会规定坐标系
       4. 直接include plugin 
       
+  * Rviz debug mode: rosconsole set /rviz_1585767957182131372 ros.rviz.message_filter debug
+
+      
 
 
