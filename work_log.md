@@ -11,3 +11,6 @@
 * 01.04.20
    * debug, create a lauch file #discussion, would be better if i use urdf but instead i used sdf, cause robotino has different shape also can be converted to urdf later. Kinect & laser works fine now
    * try integrate with ppl_detec -- how to pass argument in launch file
+* 04.04.20
+   * Regarding /tf topics in gazebo. To publish /tf, a < robot_state_publisher > is needed, but it only supports urdf file, not sdf. So considering switch from sdf to urdf + gazebo files
+
