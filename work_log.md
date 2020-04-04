@@ -13,4 +13,7 @@
    * try integrate with ppl_detec -- how to pass argument in launch file
 * 04.04.20
    * Regarding /tf topics in gazebo. To publish /tf, a < robot_state_publisher > is needed, but it only supports urdf file, not sdf. So considering switch from sdf to urdf + gazebo files
+   *  to publish /tf topics:
+      *  using urdf file and method described above
+      *  gazebo itself publishes /gazebo/joint_state & /model_state, this can transforms to a /tf topic. There's a existing node doing this, see: http://wiki.ros.org/gazebo2rviz
 
