@@ -28,7 +28,8 @@
    * http://wiki.ros.org/urdf/Tutorials/Using%20a%20URDF%20in%20Gazebo 这个写了如何让gazebo发布/tf 用roscontrol plugin
       
   * Rviz debug mode: rosconsole set /rviz_1585767957182131372 ros.rviz.message_filter debug
-
+   
+   * 检查urdf可否被应用的gazebo：```z sdf -p MODEL.urd ;  cat ~/.gazebo/gzsdf.log ```
       
 
 
