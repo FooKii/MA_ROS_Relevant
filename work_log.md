@@ -17,4 +17,6 @@
       *  using urdf file and method described above
       *  gazebo itself publishes /gazebo/joint_state & /model_state, this can transforms to a /tf topic. There's a existing node doing this, see: http://wiki.ros.org/gazebo2rviz
    * Method 1 is chosen cause urdf file is more needed later in real robot and has a wider use
+   * A quick try: add ros control plugin in sdf file, see if any /tf publishment  
+      ```[ERROR] [1586045338.023356025, 6.958000000]: GazeboRosControlPlugin missing <legacyModeNS> while using DefaultRobotHWSim, defaults to true.This setting assumes you have an old package with an old implementation of DefaultRobotHWSim, where the robotNamespace is disregarded and absolute paths are used instead.If you do not want to fix this issue in an old package just set <legacyModeNS> to true.``` is given and still no /tf topics
 
