@@ -21,4 +21,4 @@
       ```[ERROR] [1586045338.023356025, 6.958000000]: GazeboRosControlPlugin missing <legacyModeNS> while using DefaultRobotHWSim, defaults to true.This setting assumes you have an old package with an old implementation of DefaultRobotHWSim, where the robotNamespace is disregarded and absolute paths are used instead.If you do not want to fix this issue in an old package just set <legacyModeNS> to true.``` is given and still no /tf topics
 * 05.04.20
    * create urdf for 2_wheel_robot without sensors and vislized in rviz. Note: the origin's reference frame in .urdf file is different from the < pose > tag in sdf file
-
+   * urdf and gazebo file for 2 wheel robot with sensors, to be brought into gazebo to check functionality, next step is to learn "creating ros package" casue the reletive path included in the urdf file need the package first to be installed
