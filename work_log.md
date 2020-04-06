@@ -22,3 +22,9 @@
 * 05.04.20
    * create urdf for 2_wheel_robot without sensors and vislized in rviz. Note: the origin's reference frame in .urdf file is different from the < pose > tag in sdf file
    * urdf and gazebo file for 2 wheel robot with sensors, to be brought into gazebo to check functionality, next step is to learn "creating ros package" casue the reletive path included in the urdf file need the package first to be installed
+* 06.04.20
+   * finish Cmakelist and package.xml, adding lauch folder and config folder
+   * Next: 
+      * to have /tf we need robot_state_publisher
+         * robot_state_publisher needs urdf file & joint state
+            * so first need joint state working, reference http://wiki.ros.org/urdf/Tutorials/Using%20a%20URDF%20in%20Gazebo
