@@ -22,11 +22,11 @@
       3. Plugin: Sensor pluglin 要与link相联 《这可能是有时候gazebo内发布的影像坐标颠倒的原因》，link不是joint， joint 才会规定坐标系
       4. 直接include plugin 
       
-  * /tf
+* /tf
    * publish tf with robot_state_publisher http://wiki.ros.org/robot_state_publisher/Tutorials/Using%20the%20robot%20state%20publisher%20on%20your%20own%20robot
    * 注意要订阅两个： urdf 和 joint state topic
-   * http://wiki.ros.org/urdf/Tutorials/Using%20a%20URDF%20in%20Gazebo 这个写了如何让gazebo发布/tf 用roscontrol plugin
-      
+      * http://wiki.ros.org/urdf/Tutorials/Using%20a%20URDF%20in%20Gazebo 这个写了如何让gazebo发布joint state(原错/tf) 用roscontrol plugin
+      * 然后再加上urdf 就有了tf
   * Rviz debug mode: rosconsole set /rviz_1585767957182131372 ros.rviz.message_filter debug
    
    * 检查urdf可否被应用的gazebo：```z sdf -p MODEL.urd ;  cat ~/.gazebo/gzsdf.log ```
