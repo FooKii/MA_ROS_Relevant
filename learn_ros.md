@@ -37,7 +37,8 @@
 * 如何launch 这些controller
    * 这些controller都被集成在 ros_control 中 要想启动这些 先要定义一个config.yaml 里面declare了要启动哪一个controller 以及他们的发布频率。。。
    * 有了这些yaml file，在launch文件中把他们load进param server， 然后在启动controller manager时给予这些param 如下：
-   ``` <rosparam command="load"
+   ``` 
+   <rosparam command="load"
             file="$(find urdf_sim_tutorial)/config/joints.yaml"
             ns="r2d2_joint_state_controller" />
   <rosparam command="load"
