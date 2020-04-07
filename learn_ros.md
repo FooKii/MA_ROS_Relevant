@@ -30,6 +30,25 @@
   * Rviz debug mode: rosconsole set /rviz_1585767957182131372 ros.rviz.message_filter debug
    
    * 检查urdf可否被应用的gazebo：```z sdf -p MODEL.urd ;  cat ~/.gazebo/gzsdf.log ```
+   
+* Joint state controller & position controller:
+   * joint_state_controller 负责发布joint的状态信息 这样node like rviz 就可以订阅joint state 然后正确的显示出它的位置状态
+   * joint_position_controller 负责来控制joint， 发布一个新的pose， state就会更新这个pose 
+* 如何launch 这些controller
+   * 这些controller都被集成在 ros_control 中 要想启动这些 先要定义一个config.yaml 里面declare了要启动哪一个controller 以及他们的发布频率。。。
+   * 有了这些yaml file，在launch文件中把他们load进param server， 然后在启动controller manager时给予这些param 如下：
+   ``` <rosparam command="load"
+            file="$(find urdf_sim_tutorial)/config/joints.yaml"
+            ns="r2d2_joint_state_controller" />
+  <rosparam command="load"
+            file="$(find urdf_sim_tutorial)/config/head.yaml"
+            ns="r2d2_head_controller" />
+
+  <node name="r2d2_controller_spawner" pkg="controller_manager" type="spawner"
+    args="r2d2_joint_state_controller
+          r2d2_head_controller
+          --shutdown-timeout 3"/>
+   ```
       
 
 
