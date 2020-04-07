@@ -28,3 +28,6 @@
       * to have /tf we need robot_state_publisher
          * robot_state_publisher needs urdf file & joint state
             * so first need joint state working, reference http://wiki.ros.org/urdf/Tutorials/Using%20a%20URDF%20in%20Gazebo
+* 07.04.20
+   * packages can be built now
+   * joint positions wrong in rviz
