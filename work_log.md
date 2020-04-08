@@ -33,3 +33,5 @@
    * joint positions wrong in rviz
    * joint positions fixed in rviz
    * in gazebo, no /tf info about wheel hinge, reason is that joint_state_publisher is integrated as a plugin in gazebo, this plugin is not working correctly.
+   * all joint works correctly with /tf now
+   * Next, a bug fix with laser sensor
