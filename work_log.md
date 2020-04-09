@@ -42,4 +42,6 @@
    * bug fixed, leg_detector functional.
 
 * 09.04.20
-   * integrate upper_body_detection/face_detection
+   * integrate face_detection, [pi_face_tracker](http://wiki.ros.org/pi_face_tracker)
+   
+
