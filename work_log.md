@@ -40,3 +40,6 @@
    * laser plugin bug caused by gpu fixed
    * integrated leg_detector, bug caused by odom_combined
    * bug fixed, leg_detector functional.
+
+* 09.04.20
+   * integrate upper_body_detection/face_detection
