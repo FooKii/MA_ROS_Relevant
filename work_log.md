@@ -35,3 +35,8 @@
    * in gazebo, no /tf info about wheel hinge, reason is that joint_state_publisher is integrated as a plugin in gazebo, this plugin is not working correctly.
    * all joint works correctly with /tf now
    * Next, a bug fix with laser sensor
+
+* 08.04.20
+   * laser plugin bug caused by gpu fixed
+   * integrated leg_detector, bug caused by odom_combined
+   * bug fixed, leg_detector functional.
