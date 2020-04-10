@@ -47,7 +47,16 @@
 * 10.04.20
    * [pi_face_tracker](http://wiki.ros.org/pi_face_tracker)
    * Upper_body_detector 
-   * Open-pose: https://github.com/ravijo/ros_openpose
-   *pedsim: https://github.com/pirobot/svl_pedsim_gazebo
+   * Open-pose: https://github.com/ravijo/ros_openpose (bonas)
+   * strands/upper_body_detector: might need /map, at least for tracking
+      * advised to use fix_groundplane, ```roslaunch ground_plane_estimation ground_plane_fixed.launch [parameter_name:=value]```
+      * hog: 方向梯度直方图
+   
+   
+   
+   
+   
+   
+   * pedsim: https://github.com/pirobot/svl_pedsim_gazebo
    
 
