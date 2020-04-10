@@ -47,7 +47,7 @@
 * 10.04.20
    * [pi_face_tracker](http://wiki.ros.org/pi_face_tracker)
    * Upper_body_detector 
-   
+   * Open-pose: https://github.com/ravijo/ros_openpose
    *pedsim: https://github.com/pirobot/svl_pedsim_gazebo
    
 
