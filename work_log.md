@@ -46,7 +46,8 @@
 
 * 10.04.20
    * [pi_face_tracker](http://wiki.ros.org/pi_face_tracker)
-   * Upper_body_detector
+   * Upper_body_detector 
    
+   *pedsim: https://github.com/pirobot/svl_pedsim_gazebo
    
 
