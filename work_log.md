@@ -51,7 +51,9 @@
       * hog: 方向梯度直方图
    * fixed strands/upper_body, now working
    
-    
+* 13.04.20
+   * strands with fusion
+   * Spencer with fusion
    
 * TO DO:    
    * pedsim: https://github.com/pirobot/svl_pedsim_gazebo
