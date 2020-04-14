@@ -60,5 +60,6 @@
 * TO DO:    
    * pedsim: https://github.com/pirobot/svl_pedsim_gazebo
    * Open-pose: https://github.com/ravijo/ros_openpose (bonas)
+   * Metrics (CLEAR-MOT, OSPA) for evaluation of tracking performance
    
 
