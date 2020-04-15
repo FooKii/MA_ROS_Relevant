@@ -59,6 +59,7 @@
    
 * 15.04.20
    * Spencer with fusion
+   * next: pedsim for tracking 
    
 * TO DO:    
    * pedsim: https://github.com/pirobot/svl_pedsim_gazebo
