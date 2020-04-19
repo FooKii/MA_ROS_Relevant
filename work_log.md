@@ -65,6 +65,7 @@
    * bag file
 * 19.04.20
    * A world with pedsim and robot
+   * check if tracking is functioning
 
 
 * TO DO:    
