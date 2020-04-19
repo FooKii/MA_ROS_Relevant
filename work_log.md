@@ -66,10 +66,12 @@
 * 19.04.20
    * A world with pedsim and robot
    * check if tracking is functioning
-
+* 20.04.20
+   * Still some pedestrian went out of sensor-range
+   * Next step would be modify ped-sim crowd moving area
+   * extract ground_truth from pedsim
 
 * TO DO:    
-   * pedsim: https://github.com/pirobot/svl_pedsim_gazebo
    * If pedsim not working, see bag file.
    * Open-pose: https://github.com/ravijo/ros_openpose (bonas)
    * Metrics (CLEAR-MOT, OSPA) for evaluation of tracking performance
