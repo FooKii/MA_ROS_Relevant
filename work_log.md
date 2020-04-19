@@ -60,7 +60,13 @@
 * 15.04.20
    * Spencer with fusion
    * next: pedsim for tracking 
-   
+* 16.04.20
+   * Pedsim in gazebo
+   * bag file
+* 19.04.20
+   * A world with pedsim and robot
+
+
 * TO DO:    
    * pedsim: https://github.com/pirobot/svl_pedsim_gazebo
    * If pedsim not working, see bag file.
