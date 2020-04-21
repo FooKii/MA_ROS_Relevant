@@ -70,6 +70,8 @@
    * Still some pedestrian went out of sensor-range
    * Next step would be modify ped-sim crowd moving area
    * extract ground_truth from pedsim [this will need a msg converter]
+* 21.04.20
+   * Msg converter for benchmark
 
 * TO DO:    
    * If pedsim not working, see bag file.
