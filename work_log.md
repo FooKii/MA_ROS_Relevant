@@ -71,7 +71,10 @@
    * Next step would be modify ped-sim crowd moving area
    * extract ground_truth from pedsim [this will need a msg converter]
 * 21.04.20
-   * Msg converter for benchmark
+   * Msg converter from tf to actor_pose
+   
+* 22.04.20
+   * vel_converter
 
 * TO DO:    
    * If pedsim not working, see bag file.
