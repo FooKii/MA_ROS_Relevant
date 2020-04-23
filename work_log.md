@@ -76,6 +76,9 @@
 * 22.04.20
    * vel_converter
 
+* 23.04.20
+   * adjust: orientation from spencer/tacker has z = 1, but gt mostly only w =1
+   
 * TO DO:    
    * If pedsim not working, see bag file.
    * Open-pose: https://github.com/ravijo/ros_openpose (bonas)
