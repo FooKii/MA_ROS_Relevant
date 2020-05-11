@@ -78,10 +78,11 @@
 
 * 23.04.20
    * adjust: orientation from spencer/tacker has z = 1, but gt mostly only w =1
-   
-* TO DO:    
-   * If pedsim not working, see bag file.
-   * Open-pose: https://github.com/ravijo/ros_openpose (bonas)
-   * Metrics (CLEAR-MOT, OSPA) for evaluation of tracking performance
-   
+
+* 11.05.20
+   * Set up for gazebo-experiment of detection uncertainty
+      1. static leg
+      2. static upper
+      
+    
 
