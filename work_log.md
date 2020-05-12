@@ -84,5 +84,10 @@
       1. static leg
       2. static upper
       
+* 12.05.20
+   * A evaluate-system for single moving person
+      1. modify pedsim
+      2. modify gt-msgc_conversion
+      3. python-script to plot the data, 2 trajectories and a chart of err distribution
     
 
