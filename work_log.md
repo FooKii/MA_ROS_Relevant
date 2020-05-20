@@ -91,4 +91,4 @@
       3. python-script to plot the data, 2 trajectories and a chart of err distribution
     
 * 20.05.20
-   * 
+   * Python scripts to compare motion vectors
