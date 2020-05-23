@@ -92,3 +92,9 @@
     
 * 20.05.20
    * Python scripts to compare motion vectors
+   
+* 23.05 - 27.05
+   * trajectory of speed vector
+   * randomized speed
+   * horizotal path
+   * diagonal path
