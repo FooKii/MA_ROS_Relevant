@@ -96,5 +96,6 @@
 * 23.05 - 27.05
    * trajectory of speed vector
    * randomized speed
+   * tracking with upper_body alone
    * horizotal path
    * diagonal path
