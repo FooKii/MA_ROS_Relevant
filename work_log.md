@@ -94,8 +94,8 @@
    * Python scripts to compare motion vectors
    
 * 23.05 - 27.05
-   * trajectory of speed vector
-   * randomized speed
+   * trajectory of speed vector -- done
+   * randomized speed -- smooth and path -- to modify pedsim
    * tracking with upper_body alone
    * horizotal path
    * diagonal path
