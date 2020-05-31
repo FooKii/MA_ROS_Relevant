@@ -102,3 +102,5 @@
    
 * 31.05
    * Check if rotational speed indeicate large err
+   * angular twist not implemented, orientation can be used (0, 0, sin(theta/2), cos(theta/2))
+   * we can write a script to compare if orientation is changed, thus giving a indicate
