@@ -99,3 +99,6 @@
    * tracking with upper_body alone
    * horizotal path
    * diagonal path
+   
+* 31.05
+   * Check if rotational speed indeicate large err
