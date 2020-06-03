@@ -104,3 +104,11 @@
    * Check if rotational speed indeicate large err
    * angular twist not implemented, orientation can be used (0, 0, sin(theta/2), cos(theta/2))
    * we can write a script to compare if orientation is changed, thus giving a indicate
+   
+* 03.06
+   * xml 文件， 试：删除lane， 
+   * 添加static 人
+   * 添加dynamic 人
+   * 实时xml更改
+
+      2. modify gt-msgc_conversion 
