@@ -112,3 +112,8 @@
    * 实时xml更改
 
       2. modify gt-msgc_conversion 
+
+* 18.06 [Implement routenzug with spencer]
+   * get routenzug running with rgb-d camera first
+   * apply move base with amcl
+   * apply spencer
